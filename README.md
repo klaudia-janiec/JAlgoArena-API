@@ -1,4 +1,4 @@
-# JAlgoArena API [![Build Status](https://travis-ci.org/spolnik/JAlgoArena-API.svg?branch=master)](https://travis-ci.org/spolnik/JAlgoArena-API) [![GitHub release](https://img.shields.io/github/release/spolnik/jalgoarena-api.svg)]()
+# JAlgoArena API [![Build Status](https://travis-ci.org/klaudia-janiec/JAlgoArena-API.svg?branch=master)](https://travis-ci.org/klaudia-janiec/JAlgoArena-API)
 
 JAlgoArena API is API Gateway service for all backend JAlgoArena services. It's created based on Netflix Zuul with usage of Spring Boot and Spring Cloud.
 
@@ -17,8 +17,8 @@ JAlgoArena API is API Gateway service for all backend JAlgoArena services. It's 
 
 ## Components
 
-- [JAlgoArena](https://github.com/spolnik/JAlgoArena)
-- [JAlgoArena UI](https://github.com/spolnik/JAlgoArena-UI)
+- [JAlgoArena](https://github.com/klaudia-janiec/JAlgoArena)
+- [JAlgoArena UI](https://github.com/klaudia-janiec/JAlgoArena-UI)
 
 ## Continuous Delivery
 
@@ -32,7 +32,7 @@ JAlgoArena API is API Gateway service for all backend JAlgoArena services. It's 
 - Heroku (PaaS)
 - Spring Boot, Spring Cloud
 - Netflix Zuul (api gateway), Ribbon (load balancer), Hystrix (circut breaker)
-- TravisCI - https://travis-ci.org/spolnik/JAlgoArena-API
+- TravisCI - https://travis-ci.org/klaudia-janiec/JAlgoArena-API
 
 ## Running locally
 
@@ -50,6 +50,6 @@ There are two ways to run it - from sources or from binaries.
 - there is second way to run app with gradle. Instead of running above, you can just run `./gradlew clean bootRun`
 
 ## Notes
-- [Travis Builds](https://travis-ci.org/spolnik)
+- [Travis Builds](https://travis-ci.org/klaudia-janiec)
 
 ![Component Diagram](https://github.com/spolnik/JAlgoArena/raw/master/design/JAlgoArena_Logo.png)
