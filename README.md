@@ -52,10 +52,8 @@ There are two ways to run it - from sources or from binaries.
 ### Docker
 Using gradle-docker plugin `https://github.com/Transmode/gradle-docker`
 `$ ./gradlew distDocker`
-`$ cd build/docker`
-`$ docker build -t klaudia-api .`
 `$ docker images`
-`$ docker run -p 5001:5001 klaudia-api`
+`$ docker run -p 5001:5001 jalgoarena-api`
 
 
 ## Notes
