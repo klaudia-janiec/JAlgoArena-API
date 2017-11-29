@@ -49,6 +49,15 @@ There are two ways to run it - from sources or from binaries.
 - now, you can build project with command `./gradlew clean bootRepackage` which will create runnable jar package with app sources. Next, run `java -Dserver.port=5001 -jar build\libs\jalgoarena-api-*.jar` which will start application
 - there is second way to run app with gradle. Instead of running above, you can just run `./gradlew clean bootRun`
 
+### Docker
+Using gradle-docker plugin `https://github.com/Transmode/gradle-docker`
+`$ ./gradlew distDocker`
+`$ cd build/docker`
+`$ docker build -t klaudia-api .`
+`$ docker images`
+`$ docker run -p 5001:5001 klaudia-api`
+
+
 ## Notes
 - [Travis Builds](https://travis-ci.org/klaudia-janiec)
 
